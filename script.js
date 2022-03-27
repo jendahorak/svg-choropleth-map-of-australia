@@ -7,13 +7,18 @@ const fill = `hsl(48, 100%, ${chosenLightness}%)`
 
 // calculate relative color to chosen  of other municipals
 function calculateColor(currPop) {
-    if (currPop > 1) {
-        const newColorString = `hsl(48, 100%, ${chosenLightness + (lightnessVariance - (lightnessVariance / currPop))}%)`
-        return newColorString
-    } else {
-        const newColorString = `hsl(48, 100%, ${chosenLightness - (lightnessVariance - (lightnessVariance * currPop))}%)`
-        return newColorString
-    }
+
+    const newColorString = `hsl(48, 100%, ${currPop >= 1 ? chosenLightness + (lightnessVariance - (lightnessVariance / currPop)) : chosenLightness - (lightnessVariance - (lightnessVariance * currPop))}%)`
+
+    return newColorString
+
+    // if (currPop > 1) {
+    //     const newColorString = `hsl(48, 100%, ${chosenLightness + (lightnessVariance - (lightnessVariance / currPop))}%)`
+    //     return newColorString
+    // } else {
+    //     const newColorString = `hsl(48, 100%, ${chosenLightness - (lightnessVariance - (lightnessVariance * currPop))}%)`
+    //     return newColorString
+    // }
 }
 
 function runtimeFunc() {
