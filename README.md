@@ -1,4 +1,5 @@
-# cv04-p-grafika-i-svg-australia - https://jendahorak.github.io/cv04-p-grafika-i-svg-australia/
+# cv04-p-grafika-i-svg-australia
+website: https://jendahorak.github.io/cv04-p-grafika-i-svg-australia/
 
 Mapa byla vytvořna pomocí mapshaper (https://github.com/mbloch/mapshaper).
 
