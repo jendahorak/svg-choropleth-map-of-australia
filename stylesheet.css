@@ -34,13 +34,13 @@ body {
   gap: 1.5rem;
   grid-template-rows: 100px 50px auto;
 
-  padding-block: 2rem;
+  padding-block: 1rem;
   width: min(95%, 70rem);
   margin-inline: auto;
 }
 
 .title {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@ body {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  font-size: 30px;
+  font-size: 25px;
   border-radius: 5px;
   cursor: pointer;
   color: var(--cyber-yellow);
@@ -76,7 +76,7 @@ body {
   position: absolute;
   height: 300px;
   width: 80px;
-  top: 470px;
+  top: 420px;
   right: 450px;
   border-radius: 3px;
 }
