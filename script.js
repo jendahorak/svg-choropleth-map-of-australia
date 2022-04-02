@@ -24,8 +24,8 @@ function calculateColor(currPop) {
 function runtimeFunc() {
 
     const info = document.querySelectorAll('#nav_container > \*')
-    const infoDefVals = new Array()
-    info.forEach(el => { infoDefVals.push(el.innerHTML) })
+    // const infoDefVals = new Array()
+    // info.forEach(el => { infoDefVals.push(el.innerHTML) })
 
     // load SVG into HTMLCollection
     const b = document.getElementById("australia");
@@ -61,9 +61,9 @@ function runtimeFunc() {
                 path.style.stroke = '#ffcd00ff'
             }
 
-            info.forEach(function (el, i) {
-                el.innerHTML = infoDefVals[i]
-            });
+            // info.forEach(function (el, i) {
+            //     el.innerHTML = infoDefVals[i]
+            // });
         }
     }
 }
