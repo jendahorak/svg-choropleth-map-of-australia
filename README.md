@@ -10,7 +10,7 @@ Následně pak lokálně pomocí CLI bylo vytvořeno svg s požadovanými sloupc
 
 
 **Pozn.:**
-Vhodnější by bylo asi na nějakém souboru, který má větší počet ploch. Možná také upravit rozpětí intenzity barvy. Každopádně kód je adaptovatelný na libovolné SVG. Při připojení SVG s větší variabilitou populace by byla i větší variabilita barevných kateogorií. Ačkoliv se v zadání píše min. množství kateogorií 4, které na této konkrétní mapě reálně nejsou, ale kód by zvládl takové množství kategorií jaké má nastavení rozpětí variblity barvy. 
+Vhodnější by bylo asi na nějakém souboru, který má větší počet ploch. Možná také upravit rozpětí intenzity barvy. Každopádně kód je adaptovatelný na libovolné SVG. Při připojení SVG s větší variabilitou populace by byla i větší variabilita barevných kateogorií. Ačkoliv se v zadání píše min. množství kateogorií 4, které na této konkrétní mapě reálně nejsou, ale kód by zvládl takové množství kategorií jaké má nastavení rozpětí variability barvy. 
 
 Legenda vytvořená lineargradientem záhadně neodpovídá odstínům vygenerovaným v kódu i přestože rozpětí je stejné jako je rozpětí možných dostínů generovaných barev.
 
