@@ -66,7 +66,16 @@ body {
 }
 
 #legend {
-  background-image: linear-gradient(hsl(48, 100%, 75%), hsl(48, 100%, 25%));
+  #legend {
+  background-image: linear-gradient(
+    hsl(48, 100%, 75%),
+    hsl(48, 100%, 65%),
+    hsl(48, 100%, 55%),
+    hsl(48, 100%, 50%),
+    hsl(48, 100%, 45%),
+    hsl(48, 100%, 35%),
+    hsl(48, 100%, 25%)
+  );
   color: var(--dark-lava);
   font-size: larger;
   display: flex;
