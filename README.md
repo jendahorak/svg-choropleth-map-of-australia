@@ -1,4 +1,4 @@
-# cv04-p-grafika-i-svg-australia
+# svg-choropleth-map-of-australia
 website: https://jendahorak.github.io/cv04-p-grafika-i-svg-australia/
 
 Mapa byla vytvořna pomocí mapshaper (https://github.com/mbloch/mapshaper).
